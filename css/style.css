@@ -17,11 +17,14 @@
 
     .sidebar {
         height: 100%;
+        background-image: url(../img/sidebar-bg.png);
+        background-position: center;
     }
 
     .dashboard {
         height: 100%;
         overflow-y: auto;
+        background-color: var(--ms_lightgrey);
     }
 
 /* #endregion Common */
@@ -31,14 +34,6 @@
 
     .debug main {
         background-color: lightpink;
-    }
-
-    .debug .sidebar {
-        background-color: lightsalmon;
-    }
-
-    .debug .dashboard {
-        background-color: lightskyblue;
     }
 
 /* #endregion Debug */
