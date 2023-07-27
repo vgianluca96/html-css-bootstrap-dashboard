@@ -4,6 +4,7 @@
     :root {
         --ms_lightgrey: #f8f9fa; /* bg header */
         --ms_white: white;
+        --ms-blue: #165bba;
     }
 
     header {
@@ -52,3 +53,15 @@
     }
 
 /* #endregion Header */
+
+
+/* #region Dashboard */
+
+    .badge_prop {
+        background-color: var(--ms-blue);
+        border-radius: 20px;
+        font-size: 10px;
+    }
+
+
+/* #endregion Dashboard */
