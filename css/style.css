@@ -1,12 +1,18 @@
 
 /* #region Common */
 
+    :root {
+        --ms_lightgrey: #f8f9fa; /* bg header */
+        --ms_white: white;
+    }
+
     header {
-        height: 90px;
+        height: 70px;
+        background-color: var(--ms_lightgrey);
     }
 
     main {
-        height: calc(100vh - 90px);
+        height: calc(100vh - 70px);
     }
 
     .sidebar {
@@ -23,10 +29,6 @@
 
 /* #region Debug */
 
-    .debug header {
-        background-color: orange;
-    }
-
     .debug main {
         background-color: lightpink;
     }
@@ -40,3 +42,22 @@
     }
 
 /* #endregion Debug */
+
+
+/* #region Header */
+
+    .header_body {
+        background-color: var(--ms_white);
+        height: 65%;
+    }
+
+    .header_body .mobile_logo {
+        height: 80%;
+    }
+
+    .header_body .logo {
+        height: 80%;
+    }
+
+
+/* #endregion Header */
