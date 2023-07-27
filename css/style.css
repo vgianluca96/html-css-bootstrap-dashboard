@@ -46,18 +46,14 @@
 
 /* #region Header */
 
-    .header_body {
-        background-color: var(--ms_white);
-        height: 65%;
+    nav .logo_mobile {
+        width: 40%;
+        max-width: 40px;
     }
 
-    .header_body .mobile_logo {
-        height: 80%;
+    nav .logo {
+        width: 80%;
+        max-width: 120px;
     }
-
-    .header_body .logo {
-        height: 80%;
-    }
-
 
 /* #endregion Header */
