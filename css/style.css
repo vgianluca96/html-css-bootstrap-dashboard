@@ -4,7 +4,7 @@
     :root {
         --ms_lightgrey: #f8f9fa; /* bg header */
         --ms_white: white;
-        --ms-blue: #165bba;
+        --ms-blue: #165bba;  /* badge */
     }
 
     header {
@@ -63,5 +63,8 @@
         font-size: 10px;
     }
 
+    .f_bigger {
+        font-size: 26px;
+    }
 
 /* #endregion Dashboard */
