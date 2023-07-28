@@ -52,8 +52,6 @@
         width: 30%;
     }
 
-    
-
 /* #endregion Utilities */
 
 
@@ -89,8 +87,5 @@
 
 @media screen and (min-width: 992px) {
 
-    .w_lg_50 {
-        width: 50%;
-    }
 
 }

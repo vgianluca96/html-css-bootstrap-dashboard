@@ -155,9 +155,11 @@
                     Nuovo Studente
         
                     <button class="btn btn-primary border border-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                        aria-controls="offcanvasRight">+</button>
+                        aria-controls="offcanvasRight">
+                        +
+                    </button>
                     
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -169,7 +171,7 @@
                                     <input type="text" class="form-control" id="inputname">
                                 </div>
                                 <div class="col-12 col-lg-6">
-                                    <label for="inputsurname" class="form-label">Congnome</label>
+                                    <label for="inputsurname" class="form-label">Cognome</label>
                                     <input type="text" class="form-control" id="inputsurname">
                                 </div>
                                 <div class="col-12 col-lg-6">
@@ -203,7 +205,7 @@
                                     <input type="text" class="form-control" id="inputZip">
                                 </div>
                                 <div class="col-12">
-                                    <label for="formFile" class="form-label">Default file input example</label>
+                                    <label for="formFile" class="form-label">Foto</label>
                                     <input class="form-control" type="file" id="formFile">
                                 </div>
                                 <div class="col-12">
@@ -215,10 +217,10 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-primary">Sign in</button>
+                                    <button type="submit" class="btn btn-primary fw-bold">Salva</button>
+                                    <button type="submit" class="btn btn-warning fw-bold">Svuota</button>
                                 </div>
                             </form>
-                        
                         </div>
                     </div>
                     
@@ -277,44 +279,44 @@
                         <div class="card">
                             <h5 class="card-header">F.A.Q.</h5>
                             <div class="card-body">
-                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
                                     <div class="accordion-item">
-                                      <h2 class="accordion-header">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                          Come aggiungere un nuovo studente?
+                                      <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Come aggiungere un nuovo studente?
                                         </button>
                                       </h2>
-                                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
                                             Clicca sul + in alto nella sezione blu.
                                         </div>
                                       </div>
                                     </div>
                                     <div class="accordion-item">
-                                      <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                          Come posso accedere alle informazioni del mio account?
+                                      <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Come posso accedere alle informazioni del mio account?
                                         </button>
                                       </h2>
-                                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
                                             Clicca sull'icona della campanella.
                                         </div>
                                       </div>
                                     </div>
                                     <div class="accordion-item">
-                                      <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                          Posso usare questa dashboard da mobile?
+                                      <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Posso usare questa dashboard da mobile?
                                         </button>
                                       </h2>
-                                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
                                             Sì.
                                         </div>
                                       </div>
                                     </div>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
