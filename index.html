@@ -156,17 +156,72 @@
         
                     <button class="btn btn-primary border border-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
                         aria-controls="offcanvasRight">+</button>
-        
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                        aria-labelledby="offcanvasRightLabel">
+                    
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                            ...
+                            <form class="row g-3">
+                                <div class="col-12 col-lg-6">
+                                    <label for="inputname" class="form-label">Nome</label>
+                                    <input type="text" class="form-control" id="inputname">
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <label for="inputsurname" class="form-label">Congnome</label>
+                                    <input type="text" class="form-control" id="inputsurname">
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <label for="inputEmail4" class="form-label">Email</label>
+                                    <div class="input-group">
+                                        <div class="input-group-text">@</div>
+                                        <input type="email" class="form-control" id="inputEmail4">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <label for="inputPassword4" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="inputPassword4">
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputAddress" class="form-label">Indirizzo</label>
+                                    <input type="text" class="form-control" id="inputAddress">
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <label for="inputCity" class="form-label">Città</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <label for="inputState" class="form-label">Stato</label>
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Scegli...</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <label for="inputZip" class="form-label">CAP</label>
+                                    <input type="text" class="form-control" id="inputZip">
+                                </div>
+                                <div class="col-12">
+                                    <label for="formFile" class="form-label">Default file input example</label>
+                                    <input class="form-control" type="file" id="formFile">
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Seleziona per proseguire
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Sign in</button>
+                                </div>
+                            </form>
+                        
                         </div>
                     </div>
+                    
                 </div>
         
             </div>

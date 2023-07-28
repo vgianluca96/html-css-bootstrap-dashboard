@@ -24,6 +24,7 @@
 
     .dashboard {
         height: 100%;
+        overflow-x: hidden;
         overflow-y: auto;
         background-color: var(--ms_lightgrey);
         width: 100%;
@@ -50,6 +51,8 @@
     .w_10 {
         width: 30%;
     }
+
+    
 
 /* #endregion Utilities */
 
@@ -84,7 +87,10 @@
 /* #endregion Dashboard */
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
 
-    
+    .w_lg_50 {
+        width: 50%;
+    }
+
 }
