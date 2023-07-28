@@ -3,8 +3,9 @@
 
     :root {
         --ms_lightgrey: #f8f9fa; /* bg header */
-        --ms_white: white;
+        --ms_darkgrey: #7790a8; /* hover sidebar*/
         --ms-blue: #165bba;  /* badge */
+        --ms_white: white;
     }
 
     header {
@@ -68,6 +69,16 @@
     }
 
 /* #endregion Header */
+
+
+/* #region Sidebar */
+
+    .sidebar a:hover {
+        background-color: var(--ms_darkgrey);
+
+    }
+
+/* #endregion Sidebar */
 
 
 /* #region Dashboard */
