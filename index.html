@@ -177,11 +177,11 @@
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <td scope="col" class="w-75">Nome</td>
-                                            <td scope="col" class="d-none d-md-table-cell">Data inizio</td>
-                                            <td scope="col" class="d-none d-md-table-cell">ROI</td>
-                                            <td scope="col">Stato</td>
-                                            <td scope="col">Azioni</td>
+                                            <td scope="col" class="w_60">Nome</td>
+                                            <td scope="col" class="w_10 d-none d-md-table-cell">Data inizio</td>
+                                            <td scope="col" class="w_10 d-none d-md-table-cell">ROI</td>
+                                            <td scope="col" class="w_10">Stato</td>
+                                            <td scope="col" class="w_10">Azioni</td>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -215,9 +215,44 @@
                         <div class="card">
                             <h5 class="card-header">F.A.Q.</h5>
                             <div class="card-body">
-                                <h5 class="card-title">F.A.Q.</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                          Come aggiungere un nuovo studente?
+                                        </button>
+                                      </h2>
+                                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            Clicca sul + in alto nella sezione blu.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                          Come posso accedere alle informazioni del mio account?
+                                        </button>
+                                      </h2>
+                                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            Clicca sull'icona della campanella.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                          Posso usare questa dashboard da mobile?
+                                        </button>
+                                      </h2>
+                                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            Sì.
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -231,9 +266,20 @@
                         <div class="card">
                             <h5 class="card-header">Todo</h5>
                             <div class="card-body">
-                                <h5 class="card-title">To Do</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                        <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                        <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap 5 in classse #75</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                        <label class="form-check-label" for="thirdCheckbox">Controllare username github studenti</label>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
