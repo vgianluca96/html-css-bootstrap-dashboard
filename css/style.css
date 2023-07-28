@@ -41,6 +41,15 @@
 /* #endregion Debug */
 
 
+/* #endregion Utilities */
+
+    .ms_invisible {
+        visibility: collapse;
+    }
+
+/* #endregion Utilities */
+
+
 /* #region Header */
 
     nav .logo_mobile {
@@ -69,3 +78,12 @@
     }
 
 /* #endregion Dashboard */
+
+
+@media screen and (min-width: 768px) {
+
+    .ms_md_visible {
+        visibility: visible;
+    }
+    
+}
